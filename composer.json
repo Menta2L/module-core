@@ -1,7 +1,7 @@
 {
     "name": "phalconeye/module-core",
     "type": "phalconeye-module",
-    "description" : "Phalcon Eye Core module",
+    "description" : "PhalconEye Core module",
     "keywords" : [ "phalcon", "phalconeye", "core", "module" ],
     "homepage" : "http://phalconeye.com",
     "license" : "BSD-3-Clause",
