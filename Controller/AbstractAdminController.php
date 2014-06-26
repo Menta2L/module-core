@@ -185,7 +185,7 @@ abstract class AbstractAdminController extends AbstractController
             AssetManager::DEFAULT_COLLECTION_CSS,
             $this->assets->getEmptyCssCollection()
                 ->addCss('ui/bootstrap/dist/css/bootstrap.min.css')
-                ->addCss('ui/bootstrap-switch/dist/css/bootstrap-switch.min.css')
+                ->addCss('ui/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css')
                 ->addCss('ui/phalconeye/jquery/jquery-ui.css')
                 ->addCss('assets/css/core/admin/main.css')
                 ->join(false)
