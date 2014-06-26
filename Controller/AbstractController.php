@@ -226,7 +226,7 @@ abstract class AbstractController extends PhalconController
         $this->assets->set(
             AssetManager::DEFAULT_COLLECTION_CSS,
             $this->assets->getEmptyCssCollection()
-                ->addCss('external/jquery/jquery-ui.css')
+                ->addCss('ui/phalconeye/jquery/jquery-ui.css')
                 ->addCss('assets/css/constants.css')
                 ->addCss('assets/css/theme.css')
         );
@@ -234,9 +234,9 @@ abstract class AbstractController extends PhalconController
         $this->assets->set(
             AssetManager::DEFAULT_COLLECTION_JS,
             $this->assets->getEmptyJsCollection()
-                ->addJs('ui/jquery/jquery-2.1.0.js')
-                ->addJs('ui/jquery/jquery-ui-1.10.4.js')
-                ->addJs('ui/jquery/jquery.cookie.js')
+                ->addJs('ui/phalconeye/jquery/jquery-2.1.0.js')
+                ->addJs('ui/phalconeye/jquery/jquery-ui-1.10.4.js')
+                ->addJs('ui/phalconeye/jquery/jquery.cookie.js')
                 ->addJs('assets/js/core/core.js')
                 ->addJs('assets/js/core/i18n.js')
                 ->addJs('assets/js/core/form.js')

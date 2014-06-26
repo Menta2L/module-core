@@ -38,7 +38,7 @@
 
     <div class="span12">
         <div class="row-fluid">
-            <iframe style="" src="{{ url('ui/pydio/index_shared.php')}}"></iframe>
+            <iframe style="" src="{{ url('ui/phalconeye/pydio/index_shared.php')}}"></iframe>
         </div>
         <!--/row-->
     </div><!--/span-->

@@ -57,17 +57,17 @@ class Controller extends WidgetController
         /**
          * Slider Css file
          */
-        ASSET_CSS_URL = 'ui/bxslider-4/jquery.bxslider.css',
+        ASSET_CSS_URL = 'ui/phalconeye/bxslider-4/jquery.bxslider.css',
 
         /**
          * Slider Js file
          */
-        ASSET_JS_URL = 'ui/bxslider-4/jquery.bxslider.min.js',
+        ASSET_JS_URL = 'ui/phalconeye/bxslider-4/jquery.bxslider.min.js',
 
         /**
          * Slider Js video handler file
          */
-        ASSET_JS_VIDEO_URL = 'ui/bxslider-4/plugins/jquery.fitvids.js';
+        ASSET_JS_VIDEO_URL = 'ui/phalconeye/bxslider-4/plugins/jquery.fitvids.js';
 
 
     /**
