@@ -23,6 +23,46 @@
         "phalconeye/ui-libraries": "0.5.*@dev"
     },
     "extra": {
-        "name": "Core"
+        "name": "Core",
+        "events": [],
+        "widgets": [
+            {
+                "name": "HtmlBlock",
+                "module": "core",
+                "description": "Insert any HTML of you choice",
+                "is_paginated": "0",
+                "is_acl_controlled": "1",
+                "admin_form": "action",
+                "enabled": true
+            },
+            {
+                "name": "Menu",
+                "module": "core",
+                "description": "Render menu",
+                "is_paginated": "0",
+                "is_acl_controlled": "1",
+                "admin_form": "\\Core\\Form\\Admin\\Widget\\Menu",
+                "enabled": true
+            },
+            {
+                "name": "Header",
+                "module": "core",
+                "description": "Settings for header of you site.",
+                "is_paginated": "0",
+                "is_acl_controlled": "1",
+                "admin_form": "\\Core\\Form\\Admin\\Widget\\Header",
+                "enabled": true
+            },
+            {
+                "name": "Slider",
+                "module": "core",
+                "description": "Dynamic content slider",
+                "is_paginated": "0",
+                "is_acl_controlled": "1",
+                "admin_form": "action",
+                "enabled": true
+            }
+        ],
+        "i18n": []
     }
 }
