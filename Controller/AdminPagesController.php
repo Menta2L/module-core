@@ -184,7 +184,7 @@ class AdminPagesController extends AbstractAdminController
      */
     public function manageAction($id)
     {
-        $this->view->headerNavigation->setActiveItem('admin/pages');
+        $this->view->adminNavigation->setActiveItem('admin/pages');
         $page = Page::findFirstById($id);
         if (!$page) {
             $this->flashSession->notice('Page not found!');

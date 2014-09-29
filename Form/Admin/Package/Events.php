@@ -88,7 +88,7 @@ class Events extends CoreForm
             );
 
         $this->addContentFieldSet()
-            ->addHtml('control', 'AdminPackages/partial/eventsControl', $this->_eventsData);
+            ->addHtml('control', $this->resolveView('AdminPackages/partial/eventsControl', 'core'), $this->_eventsData);
 
         $this->addFooterFieldSet()
             ->addButton('save')
