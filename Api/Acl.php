@@ -185,7 +185,7 @@ class Acl extends AbstractApi
     {
         $object = new \stdClass();
         $object->name = $objectName;
-        $object->module = ucfirst(Application::SYSTEM_DEFAULT_MODULE);
+        $object->module = ucfirst(Application::DEFAULT_MODULE_CORE);
         $object->actions = [];
         $object->options = [];
 
